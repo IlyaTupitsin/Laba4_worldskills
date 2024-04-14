@@ -17,7 +17,7 @@ class Program
         string[] books = { "Приключения", "Словарь", "Энциклопедия" };
 
         readers[0].takeBook(books);
-        readers[0].takeBook(students[0].name, 3);
+        readers[0].takeBook(students[0].name, 1);
         readers[1].returnBook(books);
         readers[1].returnBook(students[1].name, 2);
     }
